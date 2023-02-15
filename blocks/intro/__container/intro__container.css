@@ -3,15 +3,3 @@
   padding: 0;
 }
 
-@media all and (max-width: 768px) {
-  .intro__list{
-  max-width: 720px;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .intro__list{
-    max-width: 288px;
-  }
-}
-
