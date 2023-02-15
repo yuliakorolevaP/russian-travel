@@ -1,0 +1,15 @@
+.footer{
+  max-width: calc(100%-96px);
+  margin: 0 48px 24px 48px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media all and (max-width: 625px){
+  .footer{
+    max-width: 320px;
+    margin: 0 0 24px 16px;
+    flex-direction: column;
+  }
+}

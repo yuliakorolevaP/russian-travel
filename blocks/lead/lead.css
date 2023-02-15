@@ -1,0 +1,35 @@
+.lead{
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  margin: 56px 148px 92px 148px;
+  padding: 0;
+}
+
+@media all and (min-width: 1280px){
+  .lead{
+    margin: 48px auto 92px auto;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .lead{
+    max-width: 928px;
+    margin: 48px 48px 92px 48px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .lead{
+    max-width: 768px;
+    margin: 48px 0 88px 0;
+  }
+}
+
+@media all and (max-width: 425px) {
+  .lead{
+    max-width: 320px;
+    margin: 48px auto 64px auto;
+  }
+}
+

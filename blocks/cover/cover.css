@@ -1,0 +1,29 @@
+.cover{
+  margin: 0 48px 92px 48px;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+@media all and (max-width: 1024px) {
+  .cover{
+    margin: 0 0 92px 0; 
+  }
+}
+
+@media all and (max-width: 800px) {
+  .cover{
+    margin: 0 0 88px 0;
+  }
+}
+
+@media all and (max-width: 532px) {
+  .cover{
+    margin: 0 0 64px 0; 
+  }
+}
+
+@media all and (max-width: 352px) {
+  .cover{
+    margin: 0 0 64px 0; 
+  }
+}

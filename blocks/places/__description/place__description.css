@@ -1,0 +1,14 @@
+.place__description{
+  grid-area: text;
+  display: grid;
+  margin: 0;
+  padding: 0;
+}
+
+@media all and (max-width: 425px) {
+  .place__description{
+    margin: 0 16px 0 16px;
+  }
+}
+  
+  
