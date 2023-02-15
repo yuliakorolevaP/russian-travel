@@ -7,8 +7,9 @@
   align-items: start;
   grid-template-areas: 
   "title website"
-  "image text"
+  "image text";
 }
+
 .place__container:last-child{
   margin: 0;
 }
@@ -38,7 +39,7 @@
     "title" 
     "website"
     "image "
-    "text"
+    "text";
   }
 }
 
