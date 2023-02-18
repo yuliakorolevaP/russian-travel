@@ -18,8 +18,6 @@
 @media all and (max-width: 320px) {
   .intro__title{
     max-width: 288px;
-    font-style: normal;
-    font-weight: 900;
     font-size: 32px;
     line-height: 35px;
   }

@@ -18,11 +18,3 @@
   }
 }
 
-@media all and (max-width: 352px) {
-  .cover__title{
-    max-width: 288px;
-    font-size: 32px;
-    line-height: 35px;
-  }
-}
-

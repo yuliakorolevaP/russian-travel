@@ -14,12 +14,6 @@
     margin-bottom: 56px;
   }
 }
-  
-@media all and (max-width: 768px) {
-  .lead__subtitle{
-    margin-bottom: 56px;
-  }
-}
 
 @media all and (max-width: 425px) {
   .lead__subtitle{

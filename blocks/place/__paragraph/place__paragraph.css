@@ -28,9 +28,6 @@
 @media all and (max-width: 425px) {
   .place__paragraph{
     max-width: 288px;
-    font-size: 16px;
-    line-height: 163%;
-    margin-bottom: 25px;
   }
 }
 

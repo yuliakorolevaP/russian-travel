@@ -29,7 +29,7 @@
   right: 0;
   background-color: #2A2C2F;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.3;
   transition: opacity 0.3s;
 }
 
@@ -46,7 +46,7 @@
 
 @media all and (max-width: 800px) {
   .cover__link{
-    max-width: 768px;
+    max-width: 800px;
     min-height: 480px;
   }
 }
@@ -63,6 +63,5 @@
   .cover__link{
     max-width: 320px;
     min-height: 200px;
-    margin: 0 auto 0 auto; 
   }  
 }

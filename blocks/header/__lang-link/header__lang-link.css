@@ -1,7 +1,5 @@
 .header__lang-link{
-  max-width: 30px;
-  max-height: 28px;
-  margin: 0 0 0 18px;
+  margin: 0 18px 0 18px;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -9,6 +7,7 @@
   color: #FFFFFF;
   opacity: 1;
   transition: opacity 0.3s;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
@@ -17,14 +16,19 @@
 }
 
 .header__lang-link:last-child {
-  text-decoration: none;
   margin: 0;
+}
+
+.header__lang-link:active {
+  text-decoration: underline;
+}
+
+.header__lang-link:focus {
+  text-decoration: underline;
 }
 
 @media all and (max-width: 320px) {
   .header__lang-link{
-    max-width: 22px;
-    max-height: 20px;
     font-size: 18px;
     line-height: 20px;
   } 
