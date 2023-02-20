@@ -1,11 +1,12 @@
 .footer{
-  max-width: calc(100% - 96px);
+  max-width: 1280px;
   margin: 0 48px 24px 48px;
   padding: 0;
   display: flex;
   justify-content: space-between;
   align-self: stretch;
 }
+
 @media all and (max-width: 768px){
   .footer{
     max-width: 720px;
